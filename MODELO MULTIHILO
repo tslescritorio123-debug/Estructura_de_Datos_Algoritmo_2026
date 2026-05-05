@@ -1,0 +1,16 @@
+🚀 Modelo Multihilo: Sistema Transaccional Bancario (OLTP)
+
+Este proyecto implementa un simulador de **procesamiento de transacciones en línea** utilizando programación multihilo en Python. 
+El objetivo principal es gestionar la concurrencia y garantizar la integridad de los datos mediante primitivas de sincronización.
+
+🛠️ Características Técnicas
+*   **Gestión de Concurrencia:** Uso de la librería `threading` para la creación de hilos independientes (Workers).
+*   **Exclusión Mutua (Mutex):** Implementación de `threading.Lock()` para prevenir **condiciones de carrera** y asegurar que cada transacción sea atómica.
+*   **Auditabilidad:** Sistema de logging profesional con trazabilidad temporal para auditoría de transacciones.
+*   **Propiedades ACID:** El motor garantiza la Atomicidad y Consistencia de cada movimiento bancario.
+
+📂 Contenido del Repositorio
+`INFORME DEL MODELO MULTIHILO_CODIGO PRACTICO.py`: Código fuente del motor transaccional.
+`INFORME DEL MODELO MULTIHILO_CODIGO PRACTICO.pdf`: Informe técnico detallado con fundamentación teórica y resultados.
+
+**Curso:** Estructura de Datos y Algoritmo  
